@@ -6,9 +6,9 @@ This repository contains the code of the paper: [Towards Active Learning for Act
 
 In this section, we detail the experiments performed on NetVLAD++.
 
-### Anaconda environment
+### Anaconda Environment
 
-```
+```bash
 conda create -y -n ActiveSpotting python=3.8
 conda activate ActiveSpotting
 conda install -y pytorch=1.6 torchvision=0.7 cudatoolkit=10.1 -c pytorch
@@ -34,6 +34,8 @@ Tip: if you do not have enough storage, you can create a symbolic link from a re
 mkdir -p path/to
 ln -s /media/giancos/Football/SoccerNet_ActiveLearning  -T path/to/SoccerNet
 ```
+
+### Main Function
 
 ### First Results
 
@@ -67,7 +69,7 @@ This graph summarize the performances per ratio of trainig dataset.
 
 ![MainResults](./img/1.MainResults.png)
 
-### Faster Train ing and Active Learning Steps
+### Faster Training and Active Learning Steps
 
 You can train faster with an optimize training profile and increase the samples in the active learning step faster.
 
@@ -99,7 +101,7 @@ This graph summarize the performances per ratio of training dataset using faster
 
 ![FasterTraining](./img/2.FasterTrainingandAdaptiveALSteps.png)
 
-### Finetuning models
+### Finetuning Models
 
 You can fine-tune the model for a few epochs at each active learning iteration to reach faster performances.
 
@@ -141,7 +143,7 @@ This graph summarize the performances per ratio of training dataset by fine-tuni
 
 In this section, we detail the experiments performed on PTS
 
-### Anaconda environment
+### Anaconda Environment
 
 TBD
 
